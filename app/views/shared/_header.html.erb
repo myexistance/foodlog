@@ -20,6 +20,10 @@
         </div>
         <div id="navbarMenuHeroA" class="navbar-menu">
           <div class="navbar-end">
+          <%= link_to root_path, class: "navbar-item" do %>
+
+            <span class="has-text-weight-bold is-size-4 ml-4">Show All</span>
+          <% end %>
           <span class="navbar-item">
             <%= link_to "Create New", new_entry_path, class: "button" %>
           </span>
